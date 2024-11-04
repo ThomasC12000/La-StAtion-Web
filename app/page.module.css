@@ -1,0 +1,5 @@
+.dividerVertical {
+  border-left: 1px solid #000000; /* Style de la bordure verticale */
+  height: auto; /* Assure que la bordure s'étend sur toute la hauteur de la carte */
+  margin: auto 1rem;
+}
