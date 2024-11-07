@@ -94,9 +94,9 @@ LA-STATION-WEB/
 ```
 
 - **public/** : Contient les ressources statiques telles que les images.
-- **src/components/** : Contient les composants réutilisables de l'application.
-- **src/pages/** : Contient les pages de l'application.
-- **src/styles/** : Contient les fichiers de styles CSS.
+- **app/components/** : Contient les composants réutilisables de l'application.
+- **lib/** : Contient la gestion de l'envoie de mail et la connexion a la base de donnée.
+- **models/** : Contient les modeles pour la base de donnée.
 
 ## 📚 En savoir plus
 
