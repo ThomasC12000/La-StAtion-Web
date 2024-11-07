@@ -50,18 +50,44 @@ Vous pouvez commencer à éditer la page en modifiant \`app/page.js\`. La page s
 Voici la structure des fichiers et dossiers principaux :
 
 ```
-la-station/
-├── public/
-│   ├── images/
-│   └── ...
-├── src/
+LA-STATION-WEB/
+├── app/
+│   ├── admin/
+│   ├── api/
+│   ├── calendar/
 │   ├── components/
-│   ├── pages/
-│   ├── styles/
+│   ├── contact/
+│   ├── dashboard/
+│   ├── espace-coworking/
+│   ├── evenements/
+│   ├── stationnautes/
+│   ├── unauthorized/
 │   └── ...
+│
+├── lib/
+│   ├── mail.js
+│   ├── mongodb.js
+│   └── ...
+│
+├── models/
+│   ├── calendar.js
+│   ├── publicEvents.js
+│   ├── secretCode.js
+│   ├── user.js
+│
+├── utils/
+│   ├── checkAuth.js
+│   ├── secretCode.js
+│   └── ...
+│
 ├── .gitignore
-├── next.config.js
+├── .eslintrc.json
+├── auth.js
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
 ├── package.json
+├── tsconfig.json
 └── README.md
 ```
 
