@@ -1,9 +1,10 @@
 # 📡 La Station
 
-<div style="display: flex; align-items: center;">
-  <img src="https://github.com/ThomasC12000/La-StAtion-Web/blob/main/public/img/lastation.png?raw=true" alt="Logo du projet" width="50" style="margin-right: 10px;" />
-  <span>Bienvenue dans <strong>La Station</strong>, un projet innovant développé avec <a href="https://nextjs.org/">Next.js</a>. Ce guide vous aidera à installer et à configurer le projet sur votre machine locale. Suivez les étapes ci-dessous pour démarrer.</span>
-</div
+Bienvenue dans **La Station**, un projet innovant développé avec [Next.js](https://nextjs.org/). Ce guide vous aidera à installer et à configurer le projet sur votre machine locale. Suivez les étapes ci-dessous pour démarrer.
+
+<p align="center">
+  <img src="https://github.com/ThomasC12000/La-StAtion-Web/blob/main/public/img/lastation.png?raw=true" alt="Logo du projet" />
+</p>
 
 ## 🚀 Commencer
 
