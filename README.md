@@ -1,9 +1,8 @@
-
 # 📡 La Station
 
 Bienvenue dans **La Station**, un projet innovant développé avec [Next.js](https://nextjs.org/). Ce guide vous aidera à installer et à configurer le projet sur votre machine locale. Suivez les étapes ci-dessous pour démarrer.
 
-![Logo du projet](https://github.com/ThomasC12000/La-StAtion-Web/app/favicon.ico/600x150.png?text=Logo+La+Station)
+![Logo du projet](https://github.com/ThomasC12000/La-StAtion-Web/public/img/lastation.png?text=Logo+La+Station)
 
 ## 🚀 Commencer
 
@@ -15,19 +14,22 @@ Assurez-vous d'avoir installé Node.js et npm sur votre machine. Vous pouvez les
 
 Clonez le dépôt et installez les dépendances :
 
-\`\`\`bash
+```bash
 git clone https://github.com/ThomasC12000/La-StAtion-Web.git
+```
+
+```bash
 cd la-station
 npm install
 # ou
 yarn install
-\`\`\`
+```
 
 ### Démarrage du serveur de développement
 
 Lancez le serveur de développement avec l'une des commandes suivantes :
 
-\`\`\`bash
+```bash
 npm run dev
 # ou
 yarn dev
@@ -35,7 +37,7 @@ yarn dev
 pnpm dev
 # ou
 bun dev
-\`\`\`
+```
 
 Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
 
@@ -43,15 +45,11 @@ Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour
 
 Vous pouvez commencer à éditer la page en modifiant \`app/page.js\`. La page se met à jour automatiquement lorsque vous modifiez le fichier.
 
-### Optimisation des polices
-
-Ce projet utilise [\`next/font\`](https://nextjs.org/docs/basic-features/font-optimization) pour optimiser et charger automatiquement Inter, une police Google personnalisée.
-
 ## 📁 Structure du Projet
 
 Voici la structure des fichiers et dossiers principaux :
 
-\`\`\`
+```
 la-station/
 ├── public/
 │   ├── images/
@@ -65,7 +63,7 @@ la-station/
 ├── next.config.js
 ├── package.json
 └── README.md
-\`\`\`
+```
 
 - **public/** : Contient les ressources statiques telles que les images.
 - **src/components/** : Contient les composants réutilisables de l'application.
