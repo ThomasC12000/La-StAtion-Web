@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 📡 La Station
 
-First, run the development server:
+Bienvenue dans **La Station**, un projet innovant développé avec [Next.js](https://nextjs.org/). Ce guide vous aidera à installer et à configurer le projet sur votre machine locale. Suivez les étapes ci-dessous pour démarrer.
 
-```bash
+![Logo du projet](https://github.com/ThomasC12000/La-StAtion-Web/app/favicon.ico/600x150.png?text=Logo+La+Station)
+
+## 🚀 Commencer
+
+### Prérequis
+
+Assurez-vous d'avoir installé Node.js et npm sur votre machine. Vous pouvez les télécharger [ici](https://nodejs.org/).
+
+### Installation
+
+Clonez le dépôt et installez les dépendances :
+
+\`\`\`bash
+git clone https://github.com/ThomasC12000/La-StAtion-Web.git
+cd la-station
+npm install
+# ou
+yarn install
+\`\`\`
+
+### Démarrage du serveur de développement
+
+Lancez le serveur de développement avec l'une des commandes suivantes :
+
+\`\`\`bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Modification des pages
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Vous pouvez commencer à éditer la page en modifiant \`app/page.js\`. La page se met à jour automatiquement lorsque vous modifiez le fichier.
 
-## Learn More
+### Optimisation des polices
 
-To learn more about Next.js, take a look at the following resources:
+Ce projet utilise [\`next/font\`](https://nextjs.org/docs/basic-features/font-optimization) pour optimiser et charger automatiquement Inter, une police Google personnalisée.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Structure du Projet
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Voici la structure des fichiers et dossiers principaux :
 
-## Deploy on Vercel
+\`\`\`
+la-station/
+├── public/
+│   ├── images/
+│   └── ...
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── ...
+├── .gitignore
+├── next.config.js
+├── package.json
+└── README.md
+\`\`\`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **public/** : Contient les ressources statiques telles que les images.
+- **src/components/** : Contient les composants réutilisables de l'application.
+- **src/pages/** : Contient les pages de l'application.
+- **src/styles/** : Contient les fichiers de styles CSS.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📚 En savoir plus
+
+Pour en savoir plus sur Next.js, consultez les ressources suivantes :
+
+- [Documentation Next.js](https://nextjs.org/docs) - Découvrez les fonctionnalités et l'API de Next.js.
+- [Apprendre Next.js](https://nextjs.org/learn) - Un tutoriel interactif sur Next.js.
+
+Vous pouvez également consulter le [dépôt GitHub de Next.js](https://github.com/vercel/next.js/) - vos retours et contributions sont les bienvenus !
+
+## 🚀 Déploiement sur Vercel
+
+La manière la plus simple de déployer votre application Next.js est d'utiliser la [plateforme Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) des créateurs de Next.js.
+
+Consultez notre [documentation sur le déploiement Next.js](https://nextjs.org/docs/deployment) pour plus de détails.
+
+## 🛠️ Contribuer
+
+Les contributions sont les bienvenues ! Pour signaler un problème ou proposer des améliorations, ouvrez une issue ou une pull request sur le [dépôt GitHub](https://github.com/votre-utilisateur/la-station).
+
+## 📞 Contact
+
+Pour toute question ou support, contactez-nous à [contact@lastation.com](mailto:contact@lastation.com).
+
+Merci d'utiliser **La Station** ! 🚀
