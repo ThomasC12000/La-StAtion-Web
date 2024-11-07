@@ -113,10 +113,6 @@ La manière la plus simple de déployer votre application Next.js est d'utiliser
 
 Consultez notre [documentation sur le déploiement Next.js](https://nextjs.org/docs/deployment) pour plus de détails.
 
-## 🛠️ Contribuer
-
-Les contributions sont les bienvenues ! Pour signaler un problème ou proposer des améliorations, ouvrez une issue ou une pull request sur le [dépôt GitHub](https://github.com/votre-utilisateur/la-station).
-
 ## 📞 Contact
 
 Pour toute question ou support, contactez-nous à [contact@lastation.com](mailto:contact@lastation.com).
